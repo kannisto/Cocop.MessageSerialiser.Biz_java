@@ -1,0 +1,5 @@
+To enable testing, please retrieve the XML files from the specification:
+https://github.com/kannisto/Cocop.MessageSerialiser.Biz_spec
+
+Petri Kannisto
+13 Apr 2020
