@@ -58,7 +58,7 @@ extensions not included in B2MML, but these are few.
 
 This software has been implemented with Java. However, there is another 
 implementation in C#/.NET (see 
-https://github.com/kannisto/Cocop.MessageSerialiserBiz_csharp). Still, because
+https://github.com/kannisto/Cocop.MessageSerialiser.Biz_csharp). Still, because
 the serialisation syntax is XML, the messages do not restrict which platform to
 choose for implementation, as long as the messages comply with the
 standards-based profile. That is, you could have one application in .NET,
@@ -75,8 +75,8 @@ This repository contains the following applications:
 Source Code and API Doc
 -----------------------
 
-* Github repo: https://github.com/kannisto/Cocop.MessageSerialiserBiz_java
-* API documentation: https://kannisto.github.io/Cocop.MessageSerialiserBiz_java
+* Github repo: https://github.com/kannisto/Cocop.MessageSerialiser.Biz_java
+* API documentation: https://kannisto.github.io/Cocop.MessageSerialiser.Biz_java
 
 
 Messages
@@ -92,7 +92,7 @@ Examples
 
 Due to lack of time, this API does not ship with code examples. However, the
 C#/.NET API has an almost similar structure. Its examples can help:
-https://kannisto.github.io/Cocop.MessageSerialiserBiz_csharp
+https://kannisto.github.io/Cocop.MessageSerialiser.Biz_csharp
 
 In addition, the enclosed test projects provide hint how to use the API.
 

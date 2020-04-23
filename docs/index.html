@@ -87,7 +87,7 @@ $(function() {
 <p>This library provides a generic API to serialise and deserialise (or to encode and decode) messages that contain production-related schedules. Please familiarise yourself with this page: <a href="https://kannisto.github.io/Cocop-Toolkit/messageserialiser.html">https://kannisto.github.io/Cocop-Toolkit/messageserialiser.html</a></p>
 <p>All message structures are based on an open standards called Business to Manufacturing Markup Language (B2MML), which implements the ANSI/ISA-95 standard (also published as IEC/ISO 62264). B2MML is copyrighted to Manufacturing Enterprise Solutions Association (MESA International; <a href="http://www.mesa.org/en/B2MML.asp">http://www.mesa.org/en/B2MML.asp</a> ). However, MESA International is <em>not</em> the creator of this software, and this software has <em>not</em> been certified for compliance with B2MML.</p>
 <p>Because B2MML is complex and versatile, the API selectively implements what was needed in COCOP project. To guarantee interoperability, the API implements a <em>profile</em> that covers a subset of B2MML. In addition, there are extensions not included in B2MML, but these are few.</p>
-<p>This software has been implemented with Java. However, there is another implementation in C#/.NET (see <a href="https://github.com/kannisto/Cocop.MessageSerialiserBiz_csharp">https://github.com/kannisto/Cocop.MessageSerialiserBiz_csharp</a>). Still, because the serialisation syntax is XML, the messages do not restrict which platform to choose for implementation, as long as the messages comply with the standards-based profile. That is, you could have one application in .NET, another in Java and third in NodeJs, for instance, and these would be completely interoperable.</p>
+<p>This software has been implemented with Java. However, there is another implementation in C#/.NET (see <a href="https://github.com/kannisto/Cocop.MessageSerialiser.Biz_csharp">https://github.com/kannisto/Cocop.MessageSerialiser.Biz_csharp</a>). Still, because the serialisation syntax is XML, the messages do not restrict which platform to choose for implementation, as long as the messages comply with the standards-based profile. That is, you could have one application in .NET, another in Java and third in NodeJs, for instance, and these would be completely interoperable.</p>
 <p>This repository contains the following applications:</p>
 <ul>
 <li>CocopMessageSerialiserBiz: the actual library</li>
@@ -96,13 +96,13 @@ $(function() {
 </ul>
 <h2>Source Code and API Doc </h2>
 <ul>
-<li>Github repo: <a href="https://github.com/kannisto/Cocop.MessageSerialiserBiz_java">https://github.com/kannisto/Cocop.MessageSerialiserBiz_java</a></li>
-<li>API documentation: <a href="https://kannisto.github.io/Cocop.MessageSerialiserBiz_java">https://kannisto.github.io/Cocop.MessageSerialiserBiz_java</a></li>
+<li>Github repo: <a href="https://github.com/kannisto/Cocop.MessageSerialiser.Biz_java">https://github.com/kannisto/Cocop.MessageSerialiser.Biz_java</a></li>
+<li>API documentation: <a href="https://kannisto.github.io/Cocop.MessageSerialiser.Biz_java">https://kannisto.github.io/Cocop.MessageSerialiser.Biz_java</a></li>
 </ul>
 <h2>Messages </h2>
 <p>In the current implementation, only the moduel <em>ProcessProductionRequest</em> generates XML documents. That is, if the intention is to locate any object in a message, this object must be included in a <em>ProcessProductionRequest</em>.</p>
 <h2>Examples </h2>
-<p>Due to lack of time, this API does not ship with code examples. However, the C#/.NET API has an almost similar structure. Its examples can help: <a href="https://kannisto.github.io/Cocop.MessageSerialiserBiz_csharp">https://kannisto.github.io/Cocop.MessageSerialiserBiz_csharp</a></p>
+<p>Due to lack of time, this API does not ship with code examples. However, the C#/.NET API has an almost similar structure. Its examples can help: <a href="https://kannisto.github.io/Cocop.MessageSerialiser.Biz_csharp">https://kannisto.github.io/Cocop.MessageSerialiser.Biz_csharp</a></p>
 <p>In addition, the enclosed test projects provide hint how to use the API.</p>
 <h2>Work of Third Parties </h2>
 <p>This software distribution does not include any third-party modules, that is, the related XML schemata or any proxy software generated from these schemata. The reason is that the authors are not lawyers but software developers and the intention is to ensure that any copyright or licensing issues are avoided. However, because this software library is largely based on B2MML, the related license conditions apply.</p>
