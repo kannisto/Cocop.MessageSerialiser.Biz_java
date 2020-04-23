@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>TestTimeInstant</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/eu/cocop/messageserialiser/biz/IllegalDateTimeException.java</name>
+			<type>1</type>
+			<locationURI>$%7BWORKSPACE_LOC%7D/CocopMessageSerialiserBiz/src/eu/cocop/messageserialiser/biz/IllegalDateTimeException.java</locationURI>
+		</link>
+		<link>
+			<name>src/eu/cocop/messageserialiser/biz/TimeInstant.java</name>
+			<type>1</type>
+			<locationURI>$%7BWORKSPACE_LOC%7D/CocopMessageSerialiserBiz/src/eu/cocop/messageserialiser/biz/TimeInstant.java</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

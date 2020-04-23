@@ -1,0 +1,5 @@
+To enable XML validation in tests, locate the B2MML schemata (with the
+required extensions) in the folder "b2mml".
+
+Petri Kannisto, Tampere University, Finland
+April 2020

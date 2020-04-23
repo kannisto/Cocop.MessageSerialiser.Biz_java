@@ -1,0 +1,17 @@
+
+<!-- Petri Kannisto, Tampere University 13 Apr 2020 -->
+<!-- COCOP project (http://cocop-spire.eu)  -->
+
+<!--
+  To enable the "scheduling parameters" extension in a ProductionRequest,
+  modify "B2MML-V0600-Extensions.xsd" as follows.
+-->
+
+<xsd:group name = "ProductionRequest">
+  <xsd:sequence>
+    
+    <!-- This element does not exist in the original schema: -->
+    <xsd:element name="SchedulingParameters"></xsd:element>
+    
+  </xsd:sequence>
+</xsd:group>

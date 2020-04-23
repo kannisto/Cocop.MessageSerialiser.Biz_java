@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file helps in the validation of messages in tests. -->
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/helper" xmlns:tns="http://www.example.org/helper" elementFormDefault="qualified">
+  <import
+    namespace="http://www.mesa.org/xml/B2MML-V0600"
+    schemaLocation="./b2mml/B2MML-V0600-ProductionSchedule.xsd"/>
+  
+  <!-- This import is needed to validate scheduling parameters -->  
+  <import
+    namespace="http://www.opengis.net/swe/2.0"
+    schemaLocation="http://schemas.opengis.net/sweCommon/2.0/swe.xsd"/>
+    
+</schema>
