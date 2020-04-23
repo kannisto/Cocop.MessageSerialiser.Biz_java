@@ -1,0 +1,37 @@
+
+/*
+Extra stylesheet for Doxygen HTML documentation
+Author: Petri Kannisto, Tampere University, Finland
+*/
+
+div#My-FooterOgc
+{
+  display: block;
+  background-color: #f7f7f7;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+div#My-FooterCocop
+{
+  display: block;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+td.My-FooterTd
+{
+  padding-left: 0.6rem;
+}
+
+.My-FooterNormal
+{
+  font-size: 0.9rem;
+}
+
+.My-FooterSmall
+{
+  font-size: 0.75rem;
+}
